@@ -1,0 +1,122 @@
+[0m2021.07.14 00:35:11 INFO  Started: Metals version 0.10.4 in workspace 'F:\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Functional_programming_recursive_activity' for client Visual Studio Code 1.58.0.[0m
+[0m2021.07.14 00:35:14 INFO  time: initialize in 2.28s[0m
+[0m2021.07.14 00:35:14 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.14 00:35:14 WARN  no build tool detected in workspace 'F:\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Functional_programming_recursive_activity'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.14 00:35:14 WARN  no build target for: F:\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Functional_programming_recursive_activity\Q01.scala[0m
+[0m2021.07.14 00:35:14 WARN  no build target for: F:\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Functional_programming_recursive_activity\Q02.scala[0m
+[0m2021.07.14 00:35:19 WARN  no build target for: F:\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Functional_programming_recursive_activity\Q03.scala[0m
+[0m2021.07.14 00:35:20 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.14 00:35:21 INFO  time: code lens generation in 1.41s[0m
+Jul 14, 2021 12:35:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FF%3A%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FFunctional_programming_recursive_activity%2FQ02.scala:1: error: Non-zero integral values may not have a leading zero.
+02
+^
+file%3A%2F%2F%2FF%3A%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FFunctional_programming_recursive_activity%2FQ02.scala:1: error: Non-zero integral values may not have a leading zero.
+02
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:958)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:974)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:398)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:400)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:251)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1106)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:157)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:895)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:336)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScalametaParser.scannerTokens$lzycompute(ScalametaParser.scala:241)
+	at scala.meta.internal.parsers.ScalametaParser.scannerTokens(ScalametaParser.scala:241)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:155)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$261.apply(ScalametaParser.scala:5155)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.07.14 00:35:21 INFO  time: code lens generation in 6.97s[0m
+Jul 14, 2021 12:35:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FF%3A%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FFunctional_programming_recursive_activity%2FQ02.scala:1: error: Non-zero integral values may not have a leading zero.
+02
+^
+file%3A%2F%2F%2FF%3A%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FFunctional_programming_recursive_activity%2FQ02.scala:1: error: Non-zero integral values may not have a leading zero.
+02
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:958)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:974)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:398)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:400)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:251)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1106)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:157)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:895)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:336)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScalametaParser.scannerTokens$lzycompute(ScalametaParser.scala:241)
+	at scala.meta.internal.parsers.ScalametaParser.scannerTokens(ScalametaParser.scala:241)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:155)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$261.apply(ScalametaParser.scala:5155)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Jul 14, 2021 12:35:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FF%3A%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FFunctional_programming_recursive_activity%2FQ02.scala:1: error: Non-zero integral values may not have a leading zero.
+02
+^
+file%3A%2F%2F%2FF%3A%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FFunctional_programming_recursive_activity%2FQ02.scala:1: error: Non-zero integral values may not have a leading zero.
+02
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:958)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:974)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:398)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:400)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:251)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1106)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:157)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:895)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:336)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScalametaParser.scannerTokens$lzycompute(ScalametaParser.scala:241)
+	at scala.meta.internal.parsers.ScalametaParser.scannerTokens(ScalametaParser.scala:241)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:155)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$261.apply(ScalametaParser.scala:5155)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.07.14 00:35:29 WARN  no build target for: F:\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Functional_programming_recursive_activity\Q04.scala[0m
+[0m2021.07.14 00:35:37 WARN  no build target for: F:\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Functional_programming_recursive_activity\Q05.scala[0m
+[0m2021.07.14 00:35:53 WARN  no build target for: F:\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Functional_programming_recursive_activity\Q06.scala[0m
+Jul 14, 2021 12:35:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Jul 14, 2021 12:36:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
